@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
+import SharedButton from '../../shared/shared_button/SharedButton';
 
 function OneWorkspace() {
   return (
@@ -78,7 +78,9 @@ function OneWorkspace() {
                   },
                 }}
               >
-                <Button variant="contained">Join the waitlist</Button>
+                <SharedButton variant="contained">
+                  Join the waitlist
+                </SharedButton>
               </Box>
             </Box>
           </Box>

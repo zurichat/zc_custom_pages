@@ -7,6 +7,7 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
     'plugin:@next/next/recommended',
+    'prettier',
   ],
   parserOptions: {
     ecmaFeatures: { jsx: true },
@@ -17,5 +18,6 @@ module.exports = {
     'react/jsx-props-no-spreading': 0,
     'react/prop-types': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    'react/react-in-jsx-scope': [0, 'off'],
   },
 };
