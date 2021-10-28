@@ -1,5 +1,4 @@
 import React from 'react';
-
 import HeadingTextWithImage from './components/HeadingTextwithImage';
 import Logo from './components/Logo';
 import RemoteEducation from './components/RemoteEducation';

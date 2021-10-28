@@ -3,7 +3,7 @@ import Image from 'next/image';
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import Hidden from '@mui/material/Hidden';
-import Button from '@mui/material/Button';
+import SharedButton from '../../shared/shared_button/SharedButton';
 
 function HeadingTextWithImage() {
   return (
@@ -33,8 +33,11 @@ function HeadingTextWithImage() {
             paddingTop: '20px',
           }}
         >
-          Network. Collaborate. Educate. Learn Remotely. A fully integrated way
-          to connect and interact.
+          Network. Collaborate.
+          <br />
+          Educate. Learn Remotely.
+          <br />
+          <span>A fully integrated way to connect and interact.</span>
         </Box>
       </Box>
       <Box
@@ -93,7 +96,7 @@ function HeadingTextWithImage() {
               },
             }}
           >
-            <Button variant="contained">Join the waitlist</Button>
+            <SharedButton variant="contained">Join the waitlist</SharedButton>
           </Box>
         </Box>
       </Box>
@@ -125,11 +128,7 @@ function HeadingTextWithImage() {
               top: '700px',
             }}
           >
-            <Image
-              src="/image/laptop.png"
-              width="322.15px"
-              height="215.46px"
-            />
+            <Image src="/image/laptop.png" width="322.15px" height="215.46px" />
           </Box>
           <Box
             sx={{
