@@ -16,7 +16,7 @@ import {
 // Components
 import { SharedButton } from '../components';
 
-const Index = () => {
+const Index = () => (
   <>
     <CssBaseline />
 
@@ -204,6 +204,6 @@ const Index = () => {
       </Box>
     </Box>
   </>
-};
+);
 
 export default Index;
