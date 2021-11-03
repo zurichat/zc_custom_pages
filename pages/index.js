@@ -14,8 +14,7 @@ import {
 } from 'react-icons/fa';
 
 // Components
-import SharedButton from '../components/SharedButton/SharedButton';
-
+import { SharedButton } from '../components';
 
 const Home = () => {
 
