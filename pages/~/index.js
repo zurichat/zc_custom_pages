@@ -1,7 +1,14 @@
 import React from "react";
+import { TopNavigationBar, Footer } from "../../components";
 
 const Index = () => (
-    <>New Zuri Main</>
+    <>
+        <TopNavigationBar />
+        <>
+            <h1>Content Body</h1>
+        </>
+        <Footer />
+    </>
 );
 
 export default Index;
