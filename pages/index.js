@@ -16,7 +16,7 @@ import {
 // Components
 import { SharedButton } from '../components';
 
-const Home = () => {
+const Index = () => {
 
   const socialMediaIcons = [
     { id: 1, icon: <FaFacebookF />, fontSize: '27px' },
@@ -211,4 +211,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Index;
