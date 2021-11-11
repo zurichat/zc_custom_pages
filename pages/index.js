@@ -617,7 +617,7 @@ const Index = () => (
         minHeight: { xs: '60vh', md: '500px' },
         minWidth: '100vw',
         position: 'absolute',
-        top: { xs: '4150px', md: '4500px', lg: '3900px' },
+        top: { xs: '4400px', md: '4500px', lg: '3900px' },
         padding: { xs: '30px', md: '50px' }
       }}
     >
